@@ -1,7 +1,7 @@
 version: '2'
-services: 
+services:
   web:
-    build: 
+    build:
       context: .
     links:
       - mongo

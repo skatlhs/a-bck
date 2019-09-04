@@ -13,7 +13,7 @@ export default {
     },
     async resolve (root, params, options) {
         const removedListing = ListingModel
-          .findByIfAndRemove(params._id)
+          .findByIdAndRemove(params._id)
             .exec();
         
         if (!removedListing) {

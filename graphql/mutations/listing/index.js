@@ -4,6 +4,6 @@ import removeAllListings from './remove-all';
 
 export default {
     addListing,
-    remove,
+    removeListing,
     removeAllListings
 };
